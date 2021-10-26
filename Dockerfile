@@ -4,7 +4,7 @@ MAINTAINER Llorenc
 
 
 ENV CONTEXT="administracio-persones-rest"
-ENV ENTORN="prova-cus384"
+ENV ENTORN="preproduccio"
 ENV VERSIO="null"
 ENV SNAPSHOT="snapshot"
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
