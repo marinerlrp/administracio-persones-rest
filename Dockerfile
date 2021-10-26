@@ -14,7 +14,7 @@ RUN su tcuser -c "/home/tcuser/start.sh $ENTORN $CONTEXT $VERSIO $SNAPSHOT $NOMC
 
 
 EXPOSE 10180
-USER 2000
+#USER 2000
 #CMD /usr/bin/sleep 100000
 CMD env; echo "Han de existir i tenir valor les variables: ENTORN,VERSIO,CONTEXT"; cd /home/tcuser; . /home/tcuser/server/$ENTORN/entorn.sh; /home/tcuser/server/tomcat/bin/catalina.sh run
 #CMD /bin/bash
