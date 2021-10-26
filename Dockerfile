@@ -3,12 +3,12 @@ FROM openshift/spring-base-logback-encoder-tomcat9:latest
 MAINTAINER Llorenc
 
 
-ENV CONTEXT=administracio-persones-rest
-ENV ENTORN=preproduccio
-ENV VERSIO=
-ENV SNAPSHOT=
-ENV VERSIOTOMCAT=spring-base-logback-encoder-tomcat9
-ENV NOMCONTEXTCANVIAT
+ENV CONTEXT="administracio-persones-rest"
+ENV ENTORN="preproduccio"
+ENV VERSIO="null"
+ENV SNAPSHOT=""
+ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
+ENV NOMCONTEXTCANVIAT=""
 COPY start.sh /home/tcuser/
 RUN su tcuser -c "/home/tcuser/start.sh $ENTORN $CONTEXT $VERSIO $SNAPSHOT $NOMCONTEXTCANVIAT"
 
