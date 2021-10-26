@@ -6,7 +6,7 @@ MAINTAINER Llorenc
 ENV CONTEXT="administracio-persones-rest"
 ENV ENTORN="prova-cus384"
 ENV VERSIO="null"
-ENV SNAPSHOT=""
+ENV SNAPSHOT="snapshot"
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
 ENV NOMCONTEXTCANVIAT=""
 COPY start.sh /home/tcuser/
