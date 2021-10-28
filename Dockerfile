@@ -5,8 +5,8 @@ MAINTAINER Llorenc
 
 ENV CONTEXT="administracio-persones-rest"
 ENV ENTORN="preproduccio"
-ENV VERSIO="2.3.5-20211026.100417-3"
-ENV SNAPSHOT="snapshot"
+ENV VERSIO="2.3.2"
+ENV SNAPSHOT=""
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
 ENV NOMCONTEXTCANVIAT=""
 COPY start.sh /home/tcuser/
