@@ -5,7 +5,7 @@ MAINTAINER Llorenc
 
 ENV CONTEXT="administracio-persones-rest"
 ENV ENTORN="preproduccio"
-ENV VERSIO="2.3.2"
+#ENV VERSIO="2.3.2"
 ENV SNAPSHOT=""
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
 ENV NOMCONTEXTCANVIAT=""
