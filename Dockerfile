@@ -10,10 +10,10 @@ ENV SNAPSHOT=""
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
 ENV NOMCONTEXTCANVIAT=""
 COPY start.sh /home/tcuser/
-#RUN chmod a+x /home/tcuser/start.sh
+RUN chmod a+x /home/tcuser/start.sh
 RUN su tcuser -c "/home/tcuser/start.sh $ENTORN $CONTEXT $VERSIO $SNAPSHOT $NOMCONTEXTCANVIAT"
-#RUN chown -R 2000:0 /home/tcuser
-#RUN chmod -R g+rwx  /home/tcuser/
+RUN chown -R 2000:0 /home/tcuser
+RUN chmod -R g+rwx  /home/tcuser/
 
 
 EXPOSE 10180
