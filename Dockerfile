@@ -10,6 +10,7 @@ ENV SNAPSHOT=""
 ENV VERSIOTOMCAT="spring-base-logback-encoder-tomcat9"
 ENV NOMCONTEXTCANVIAT=""
 COPY start.sh /home/tcuser/
+RUN chown 2000:2000
 RUN chmod a+x /home/tcuser/start.sh
 RUN id
 RUN ls -alh /home/tcuser/
