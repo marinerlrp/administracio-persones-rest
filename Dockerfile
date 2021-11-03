@@ -1,4 +1,4 @@
-FROM openshift/spring-base-logback-encoder-tomcat9:latest
+FROM openshift/spring-base-curs:latest
 
 MAINTAINER Llorenc
 
