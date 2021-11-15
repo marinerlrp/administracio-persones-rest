@@ -1,4 +1,4 @@
-FROM openshift/spring-base-curs:latest
+FROM spring-base-curs:latest
 
 MAINTAINER Llorenc
 
