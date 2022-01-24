@@ -1,4 +1,4 @@
-FROM spring-base-curs:latest
+FROM llorenc/spring-base-curs:latest
 
 MAINTAINER Llorenc
 
