@@ -15,7 +15,7 @@ RUN chmod a+x /home/tcuser/start.sh
 RUN su tcuser -c "/home/tcuser/start.sh $ENTORN $CONTEXT $VERSIO $SNAPSHOT $NOMCONTEXTCANVIAT"
 RUN chown -R 2000:0 /home/tcuser
 RUN chmod -R g+rwx  /home/tcuser/
-
+RUN yum install -y net-tools
 
 EXPOSE 10180
 #USER 2000
